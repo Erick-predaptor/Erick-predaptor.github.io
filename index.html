@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Nube Colectiva">
+    <title>Home | Mi Proyecto</title>    
+
+    <!-- Archivo CSS Bootstrap 5 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/red-en-la-nube.png"> 
+
+    <!-- Hoja de Estilos Personalizada (estilos.css) --> 
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    
+  </head>
+  <body>
+
+    <main>
+
+      <div class="container mb-5">
+
+        <!-- Header -->
+        <header class="d-flex flex-wrap py-3 mb-5 border-bottom">
+
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">Erick Adair</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>                    
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="introduccion.html">Introducción</a>                    
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="metodologia.html">Metodología</a>                    
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="conclusion.html">Conclusión</a> 
+                  </li>
+
+                </ul>
+
+                <div class="btn-group btodt" role="group" aria-label="Basic example">                 
+                 
+                </div>
+                
+              </div>
+            </div>
+          </nav>
+
+        </header>
+
+        <!--------------------------------------------- CAROUSEL ---------------------------------------------------------------------> 
+        <div class="row">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <a href="https://www.cisco.com/c/es_mx/solutions/cloud/what-is-cloud-computing.html" target="_blank" title="¿Qué es la computación en la nube?">
+                  <img src="img/nube-principal.jpg" class="d-block w-100" alt="¿Qué es la computación en la nube?" height="400">
+                </a>
+              </div>
+
+              <div class="carousel-item">
+                <a href="https://www.kio.tech/blog/nube/conoce-como-funciona-la-informatica-en-la-nube" target="_blank" title="Conoce cómo funciona la informática en la nube">
+                  <img src="img/nube-2.jpg" class="d-block w-100" alt="Conoce cómo funciona la informática en la nube" height="400">
+                </a>
+              </div>
+
+              <div class="carousel-item">
+                <a href="https://www.innovaciondigital360.com/cloud/seguridad-en-la-nube-como-asegurar-la-computacion-en-la-nube/" target="_blank" title="Seguridad en la nube: cómo asegurar la computacion en la nube">
+                  <img src="img/nube3.jpg" class="d-block w-100" alt="Seguridad en la nube: cómo asegurar la computacion en la nube" height="400">
+                </a>
+              </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>      
+        
+        <!------------------------------------ PLANES -----------------------------------------------------------> 
+        
+        <div class="row">
+          <div class="row row-cols-1 text-center mt-5 mb-3">
+            <h2>Trabajo</h2>
+          </div>
+          <img src="img/proyecto.jpg" alt="Sistema en la nube">
+        </div>
+      </div>
+    </main>
+
+
+
+    <!-- Footer -->  
+    <center>
+    <footer class="footer mt-auto py-3 bg-light">
+      <div class="container">
+        <span class="text-muted">Mi Proyecto © <script>document.write(new Date().getFullYear())</script> </span>
+      </div>
+    </footer>
+    </center>
+     <!-- Archivo JS Bootstrap 5 -->  
+    <script src="js/bootstrap.bundle.min.js"></script>
+      
+  </body>
+</html>
